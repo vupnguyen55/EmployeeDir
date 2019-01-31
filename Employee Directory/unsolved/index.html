@@ -9,13 +9,19 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+   <link rel="stylesheet" type="type/css" href="reset.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
-<div id="navigation">
+<div class="container">
+  <div class="row">
+<div class="col-md-3" id="navigation">
+  <i class="far fa-address-book"></i>
   <li id="view">view</li>
   <li id="add">add</li>
   <li id="verify">verify</li>
 </div>
-<form>
+<div class="col-md-9">
 <div id="addWrap">
   <input id="inName" type="text" placeholder="Employee Name">
   <input id="inOffice" type="text" placeholder="Office Number">
@@ -26,8 +32,12 @@
   <input id="verifyName" type="text" placeholder="Employee Name">
   <button id="verifyEmployee">Verify Employee</button>
 </div>
-</form>
 <div id="displayBox"></div>
+</div>
+
+</div>
+</div>
+
 
 <body>
   <script src="dom.js"></script>

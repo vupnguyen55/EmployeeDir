@@ -32,7 +32,7 @@ const viewAdd = function (event) {
         employee.name = $('#inName').val().trim();
         employee.officeNum = $('#inOffice').val().trim();
         employee.phoneNum = $('#inPhone').val().trim();
-        $('#displayBox').append(`<div class="addEmploy">
+        $('#displayBox').append(`<div class="officeInfo">
             <p>${employee.name}</p>
             <p>${employee.officeNum}</p>
             <p>${employee.phoneNum}</p>
